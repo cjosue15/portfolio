@@ -15,7 +15,7 @@ const { name, label } = json.basics;
 
 <Layout title={`${name} Portfolio - ${label}`}>
   <main>
-    <Hero />
+    <Hero json={json} />
     <About title="About me" summary={json.basics.summary} />
     <Expirence title="Expirence" work={json.work} lang="en" />
     <Projects title="Projects" projects={json.projects} />

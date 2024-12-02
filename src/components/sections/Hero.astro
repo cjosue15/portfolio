@@ -1,6 +1,5 @@
 ---
 import Section from "@/components/Section.astro";
-import { basics } from "@/cv";
 import GitHub from "@/icons/GitHub.astro";
 import LinkedIn from "@/icons/LinkedIn.astro";
 import Mail from "@/icons/Mail.astro";
@@ -9,7 +8,23 @@ import WorldMap from "@/icons/WorldMap.astro";
 import X from "@/icons/X.astro";
 import Youtube from "@/icons/Youtube.astro";
 
-const { name, label, image, location, profiles, phone, email } = basics;
+const { json } = Astro.props;
+
+interface Profile {
+  network: string;
+  url: string;
+}
+
+const { name, label, image, location, profiles, phone, email } =
+  json.basics as {
+    name: string;
+    label: string;
+    image: string;
+    location: { city: string; region: string };
+    profiles: Profile[];
+    phone: string;
+    email: string;
+  };
 const { city, region } = location;
 
 const SOCIAL_ICONS: Record<string, any> = {
@@ -107,7 +122,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean);
   }
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   h2 {
@@ -177,6 +192,9 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean);
   }
 
   @media (width <= 700px) {
+    h1 {
+      font-size: 1.875rem;
+    }
     .container {
       flex-direction: column-reverse;
     }
