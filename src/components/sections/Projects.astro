@@ -1,0 +1,92 @@
+---
+import Section from "@/components/Section.astro";
+import { projects } from "@/cv";
+---
+
+<Section title="Proyectos">
+  <ul>
+    {
+      projects.map(({ url, description, highlights, name, isActive }) => {
+        return (
+          <li>
+            <article>
+              <header>
+                <h3>
+                  <a href={url} title={`Ver el proyecto ${name}`}>
+                    {name}
+                  </a>
+                  {isActive && <span>&bull;</span>}
+                </h3>
+                <p>{description}</p>
+              </header>
+              <footer>
+                {highlights.map((highlight) => {
+                  return <span>{highlight}</span>;
+                })}
+              </footer>
+            </article>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  article {
+    padding: 1rem;
+    border: 1px solid #f2f2f2;
+    border-radius: 8px;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  article header {
+    flex: 1;
+  }
+
+  article h3 {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+
+  article p {
+    font-size: 0.75rem;
+    line-height: 1.2rem;
+  }
+
+  article a {
+    color: #111;
+  }
+
+  article a:hover {
+    text-decoration: underline;
+  }
+
+  article h3 span {
+    color: #22c55e;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+  }
+
+  footer span {
+    border-radius: 6px;
+    background-color: #eee;
+    color: #333;
+    font-weight: 500;
+    font-size: 0.6rem;
+    padding: 0.2rem 0.6rem;
+  }
+</style>
