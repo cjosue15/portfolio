@@ -1,0 +1,211 @@
+{
+  "basics": {
+    "name": "Carlos Josue Morales Navarro",
+    "label": "Frontend Developer with over 5 years of experience & Programming Content Creator",
+    "image": "https://avatars.githubusercontent.com/u/51803643?v=4",
+    "email": "dev.carlos.morales@gmail.com",
+    "phone": "+51 931598807",
+    "summary": "Over 5 years of experience as a Web Developer, passionate about helping others learn and grow professionally. Throughout my career, I have worked with various tools and technologies, staying up to date and adapting to the ever-changing industry.",
+    "location": {
+      "address": "",
+      "postalCode": "15063",
+      "city": "Lima",
+      "countryCode": "ES",
+      "region": "Peru"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "CarlosMoralesDev",
+        "url": "https://linkedin.com/in/CarlosMoralesDev"
+      },
+      {
+        "network": "X",
+        "username": "CarlosJosueDev",
+        "url": "https://x.com/CarlosJosueDev"
+      },
+      {
+        "network": "GitHub",
+        "username": "cjosue15",
+        "url": "https://github.com/cjosue15"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Leniolabs",
+      "position": "Senior Frontend Developer",
+      "startDate": "2022-06-22",
+      "endDate": null,
+      "summary": "Responsible for the development and maintenance of a Design System using Angular and Storybook",
+      "highlights": [
+        "Creation of a component library with Angular.",
+        "Using Angular Material as the foundation of our library."
+      ]
+    },
+    {
+      "name": "Visma LatAm",
+      "position": "Semi Senior Frontend Developer",
+      "startDate": "2021-11-01",
+      "endDate": "2022-06-01",
+      "summary": "Responsible for developing and improving frontend applications, optimizing code performance, and creating innovative solutions such as an internal component library.",
+      "highlights": [
+        "Implemented microfrontends using the 'single-spa' library.",
+        "Improved code performance.",
+        "Developed an internal component library for the application."
+      ]
+    },
+    {
+      "name": "everis",
+      "position": "Frontend Engineer",
+      "startDate": "2021-03-01",
+      "endDate": "2021-11-01",
+      "summary": "Participated in high-impact projects for the banking and financial sector, leading the development and optimization of user interfaces.",
+      "highlights": [
+        "BCP Project - New Home Banking: Component refactoring and layout.",
+        "Load optimization using session storage.",
+        "Developed the cash withdrawal module.",
+        "Yape Web Project: Developed interfaces with Angular 9.",
+        "Implemented MVP for the unsubscription form.",
+        "Keyword functionality in the help search feature."
+      ]
+    },
+    {
+      "name": "Simple Perú",
+      "position": "Frontend Angular",
+      "startDate": "2020-04-01",
+      "endDate": "2021-03-01",
+      "summary": "Developed modules and features using Angular 2+ and consumed REST APIs, ensuring quality and efficiency in project delivery.",
+      "highlights": [
+        "Developed user interfaces with Angular 2+.",
+        "Consumed REST APIs using HttpClientModule and created services.",
+        "Created new modules for projects.",
+        "Implemented layouts with Bootstrap 4.",
+        "Used HTML5, CSS, and JavaScript for other projects."
+      ]
+    },
+    {
+      "name": "Verificativa",
+      "position": "React Developer",
+      "startDate": "2020-03-01",
+      "endDate": "2020-04-01",
+      "summary": "Developed frontend solutions based on ReactJS, integrating databases and REST APIs.",
+      "highlights": [
+        "Developed user interfaces with ReactJS.",
+        "Analyzed databases using MySQL.",
+        "Implemented REST APIs with Node.js."
+      ]
+    },
+    {
+      "name": "Plain",
+      "position": "Junior Web Developer",
+      "startDate": "2019-03-01",
+      "endDate": "2020-03-01",
+      "summary": "Developed web pages and custom functionalities using various frontend technologies and CMS.",
+      "highlights": [
+        "Developed web pages with HTML, CSS, and JavaScript.",
+        "Created websites using CMS WordPress and WooCommerce.",
+        "Developed basic plugins to add functionalities.",
+        "Deployed websites to hosting services.",
+        "Consumed REST APIs.",
+        "Implemented frontend features with Angular 8."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Instituto Cibertec",
+      "url": "https://www.cibertec.edu.pe/",
+      "area": "Computer Science and Information Technology",
+      "studyType": "Graduate",
+      "startDate": "2017-03-01",
+      "endDate": "2019-11-01"
+    }
+  ],
+  "skills": [
+    { "name": "HTML" },
+    { "name": "CSS" },
+    { "name": "JavaScript" },
+    { "name": "Angular" },
+    { "name": "Tailwind" },
+    { "name": "TypeScript" },
+    { "name": "Node" },
+    { "name": "MySQL" },
+    { "name": "Git" },
+    { "name": "GitHub" },
+    { "name": "Next.js" },
+    { "name": "React" }
+  ],
+  "languages": [
+    { "language": "Spanish", "fluency": "Native speaker" },
+    { "language": "English", "fluency": "Advanced" }
+  ],
+  "projects": [
+    {
+      "name": "Scaffolding",
+      "isActive": true,
+      "description": "Repository to organize an Angular project following best practices.",
+      "highlights": ["YouTube", "Angular", "TypeScript"],
+      "github": "https://github.com/cjosue15/angular-scaffolding"
+    },
+    {
+      "name": "SupaNotes",
+      "isActive": true,
+      "description": "Notes application using Angular and Supabase.",
+      "highlights": [
+        "YouTube",
+        "Angular",
+        "Supabase",
+        "TypeScript",
+        "PostgreSQL"
+      ],
+      "github": "https://github.com/cjosue15/supabase-notes"
+    },
+    {
+      "name": "FireAuth",
+      "isActive": true,
+      "description": "Authentication application with Firebase and Angular.",
+      "highlights": ["YouTube", "Angular", "Firebase", "Auth", "TypeScript"],
+      "github": "https://github.com/cjosue15/auth-firebase"
+    },
+    {
+      "name": "Signal Store",
+      "isActive": true,
+      "description": "Angular course with Signals to create a shopping cart.",
+      "highlights": ["YouTube", "Angular", "TypeScript", "Signals", "REST API"],
+      "github": "https://github.com/cjosue15/signal-store"
+    },
+    {
+      "name": "FireContacts",
+      "isActive": true,
+      "description": "Contacts application using Angular and Firebase.",
+      "highlights": ["YouTube", "Angular", "TypeScript", "Firebase"],
+      "github": "https://github.com/cjosue15/firebase-contacts"
+    },
+    {
+      "name": "CodeGenerator",
+      "description": "Code generator for Angular and GEMINI using TailwindCSS.",
+      "highlights": [
+        "YouTube",
+        "Angular",
+        "Gemini",
+        "TypeScript",
+        "TailwindCSS"
+      ],
+      "url": "https://code-generator-angular.netlify.app/",
+      "github": "https://github.com/cjosue15/code-generator"
+    },
+    {
+      "name": "ngxHeatmap",
+      "description": "Library to create a heatmap calendar with Angular.",
+      "highlights": ["Open Source", "Angular", "TypeScript"],
+      "url": "https://cjosue15.github.io/ngx-heatmap-calendar/",
+      "github": "https://github.com/cjosue15/ngx-heatmap-calendar"
+    },
+    {
+      "name": "ngxCmdK",
+      "description": "In progress...",
+      "highlights": ["Open Source", "Angular", "TypeScript"]
+    }
+  ]
+}
