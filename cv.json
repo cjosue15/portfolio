@@ -1,0 +1,243 @@
+{
+  "basics": {
+    "name": "Carlos Josue Morales Navarro",
+    "label": "Frontend Developer con más de 5 años de experiencia & Creador de Contenido de Programación",
+    "image": "https://avatars.githubusercontent.com/u/51803643?v=4",
+    "email": "dev.carlos.morales@gmail.com",
+    "phone": "+51 931598807",
+    "url": "https://midu.dev",
+    "summary": "Más de 5 años de experiencia como Desarrollador Web, apasionado por ayudar a otros a aprender y crecer profesionalmente. A lo largo de mi carrera, he trabajado con diversas herramientas y tecnologías, manteniéndome actualizado y adaptándome a los constantes cambios del sector.",
+    "location": {
+      "address": "",
+      "postalCode": "15063",
+      "city": "Lima",
+      "countryCode": "ES",
+      "region": "Peru"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "CarlosMoralesDev",
+        "url": "https://linkedin.com/in/CarlosMoralesDev"
+      },
+      {
+        "network": "X",
+        "username": "CarlosJosueDev",
+        "url": "https://x.com/CarlosJosueDev"
+      },
+      {
+        "network": "GitHub",
+        "username": "cjosue15",
+        "url": "https://github.com/cjosue15"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Leniolabs",
+      "position": "Senior Frontend Developer",
+      "startDate": "2022-06-22",
+      "endDate": null,
+      "summary": "Responsable del desarrollo y mantenimiento de un Design System con Angular y Storybook",
+      "highlights": [
+        "Creación de libreria de componentes con Angular.",
+        "Uso de Angular Material como base de nuestra libreria."
+      ]
+    },
+    {
+      "name": "Visma LatAm",
+      "position": "Semi Senior Frontend Developer",
+      "startDate": "2021-11-01",
+      "endDate": "2022-06-01",
+      "summary": "Responsable del desarrollo y mejora de aplicaciones frontend, optimizando el rendimiento del código y creando soluciones innovadoras como una librería interna de componentes.",
+      "highlights": [
+        "Implementación de microfrontends con la librería 'single-spa'.",
+        "Mejoras en el rendimiento del código.",
+        "Desarrollo de una librería interna de componentes para la aplicación."
+      ]
+    },
+    {
+      "name": "everis",
+      "position": "Frontend Engineer",
+      "startDate": "2021-03-01",
+      "endDate": "2021-11-01",
+      "summary": "Participación en proyectos de alto impacto para el sector bancario y financiero, liderando el desarrollo y optimización de interfaces de usuario.",
+      "highlights": [
+        "Proyecto BCP - Nuevo Home Banking: Maquetación y refactorización de componentes.",
+        "Optimización de carga con session storage.",
+        "Desarrollo del módulo de disposición de efectivo.",
+        "Proyecto Yape Web: Desarrollo de interfaces en Angular 9.",
+        "Implementación de MVP para el formulario de desafiliación.",
+        "Funcionalidad de keywords en el buscador de ayuda."
+      ]
+    },
+    {
+      "name": "Simple Perú",
+      "position": "Programador Frontend Angular",
+      "startDate": "2020-04-01",
+      "endDate": "2021-03-01",
+      "summary": "Desarrollo de módulos y funcionalidades utilizando Angular 2+ y consumo de API REST, asegurando la calidad y eficiencia en la entrega de proyectos.",
+      "highlights": [
+        "Desarrollo de interfaces de usuario con Angular 2+.",
+        "Consumo de API REST con HttpClientModule y creación de servicios.",
+        "Creación de nuevos módulos en proyectos.",
+        "Maquetación con Bootstrap 4.",
+        "Uso de HTML5, CSS y JavaScript para otros proyectos."
+      ]
+    },
+    {
+      "name": "Verificativa",
+      "position": "Desarrollador frontend - Por proyecto",
+      "startDate": "2020-03-01",
+      "endDate": "2020-04-01",
+      "summary": "Desarrollo de soluciones frontend basadas en ReactJS, con integración de bases de datos y APIs REST.",
+      "highlights": [
+        "Desarrollo de interfaces de usuario con ReactJS.",
+        "Análisis de bases de datos con MySQL.",
+        "Implementación de APIs REST con Node.js."
+      ]
+    },
+    {
+      "name": "Plain - Agencia Creativa",
+      "position": "Desarrollador web",
+      "startDate": "2019-03-01",
+      "endDate": "2020-03-01",
+      "summary": "Desarrollo de páginas web y funcionalidades personalizadas utilizando diversas tecnologías frontend y CMS.",
+      "highlights": [
+        "Desarrollo de páginas web con HTML, CSS, y JavaScript.",
+        "Desarrollo de sitios en CMS WordPress y WooCommerce.",
+        "Creación de plugins básicos para agregar funcionalidades.",
+        "Despliegue de sitios web en hosting.",
+        "Consumo de APIs REST.",
+        "Implementación de frontend con Angular 8."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Instituto Cibertec",
+      "url": "https://www.cibertec.edu.pe/",
+      "area": "Computación e Informática",
+      "studyType": "Egresado",
+      "startDate": "2017-03-01",
+      "endDate": "2019-11-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML"
+    },
+    {
+      "name": "CSS"
+    },
+    {
+      "name": "JavaScript"
+    },
+    {
+      "name": "Angular"
+    },
+    {
+      "name": "Tailwind"
+    },
+    {
+      "name": "TypeScript"
+    },
+    {
+      "name": "Node"
+    },
+    {
+      "name": "MySQL"
+    },
+    {
+      "name": "Git"
+    },
+    {
+      "name": "GitHub"
+    },
+    {
+      "name": "Next.js"
+    },
+    {
+      "name": "React"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Scaffolding",
+      "isActive": true,
+      "description": "Repositiorio para organizar un proyecto de Angular con las mejores prácticas.",
+      "highlights": ["Youtube", "Angular", "TypeScript"],
+      "github": "https://github.com/cjosue15/angular-scaffolding"
+    },
+    {
+      "name": "SupaNotes",
+      "isActive": true,
+      "description": "Aplicación de notas con Angular y Supabase",
+      "highlights": [
+        "Youtube",
+        "Angular",
+        "Supabase",
+        "TypeScript",
+        "PostgreSQL"
+      ],
+      "github": "https://github.com/cjosue15/supabase-notes"
+    },
+    {
+      "name": "FireAuth",
+      "isActive": true,
+      "description": "Aplicación de autenticación con Firebase y Angular.",
+      "highlights": ["Youtube", "Angular", "FireBase", "Auth", "TypeScript"],
+      "github": "https://github.com/cjosue15/auth-firebase"
+    },
+    {
+      "name": "Signal Store",
+      "isActive": true,
+      "description": "Curso de Angular con Signals para crear un carrito de compras.",
+      "highlights": ["Youtube", "Angular", "TypeScript", "Signals", "API Rest"],
+      "github": "https://github.com/cjosue15/signal-store"
+    },
+    {
+      "name": "FireContacts",
+      "isActive": true,
+      "description": "Aplicación de contactos con Angular y Firebase.",
+      "highlights": ["Youtube", "Angular", "TypeScript", "Firebase"],
+      "github": "https://github.com/cjosue15/firebase-contacts"
+    },
+    {
+      "name": "CodeGenerator",
+      "description": "Generador de código para Angular y GEMINI con TailwindCSS.",
+      "highlights": [
+        "Youtube",
+        "Angular",
+        "Gemini",
+        "TypeScript",
+        "TailwindCSS"
+      ],
+      "url": "https://code-generator-angular.netlify.app/",
+      "github": "https://github.com/cjosue15/code-generator"
+    },
+    {
+      "name": "ngxHeatmap",
+      "description": "Libreria para crear un calendario de calor con Angular.",
+      "highlights": ["Open Source", "Angular", "TypeScript"],
+      "url": "https://cjosue15.github.io/ngx-heatmap-calendar/",
+      "github": "https://github.com/cjosue15/ngx-heatmap-calendar"
+    },
+
+    {
+      "name": "ngxCmdK",
+      "description": "En construcción...",
+      "highlights": ["Open Source", "Angular", "TypeScript"]
+    }
+  ]
+}
