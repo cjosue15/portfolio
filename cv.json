@@ -73,7 +73,7 @@
     },
     {
       "name": "Simple Perú",
-      "position": "Programador Frontend Angular",
+      "position": "Frontend Angular",
       "startDate": "2020-04-01",
       "endDate": "2021-03-01",
       "summary": "Desarrollo de módulos y funcionalidades utilizando Angular 2+ y consumo de API REST, asegurando la calidad y eficiencia en la entrega de proyectos.",
@@ -87,7 +87,7 @@
     },
     {
       "name": "Verificativa",
-      "position": "Desarrollador frontend - Por proyecto",
+      "position": "React Developer",
       "startDate": "2020-03-01",
       "endDate": "2020-04-01",
       "summary": "Desarrollo de soluciones frontend basadas en ReactJS, con integración de bases de datos y APIs REST.",
@@ -98,8 +98,8 @@
       ]
     },
     {
-      "name": "Plain - Agencia Creativa",
-      "position": "Desarrollador web",
+      "name": "Plain",
+      "position": "Junior Web Developer",
       "startDate": "2019-03-01",
       "endDate": "2020-03-01",
       "summary": "Desarrollo de páginas web y funcionalidades personalizadas utilizando diversas tecnologías frontend y CMS.",
