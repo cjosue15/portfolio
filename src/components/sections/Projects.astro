@@ -35,8 +35,9 @@ import { projects } from "@/cv";
 <style>
   ul {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: 1fr;
     gap: 1rem;
+    margin-inline: -16px;
   }
 
   article {
@@ -85,20 +86,14 @@ import { projects } from "@/cv";
     border-radius: 6px;
     background-color: #eee;
     color: #333;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 0.6rem;
     padding: 0.2rem 0.6rem;
   }
 
-  @media (width <= 700px) {
+  @media (width >= 600px) {
     ul {
-      margin-inline: 0px;
-    }
-
-    article {
-      border: none;
-      box-shadow: 0 1px 1px #f2f2f2;
-      padding: 0 0 16px 0;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
   }
 </style>
