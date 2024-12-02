@@ -1,10 +1,41 @@
 ---
-// import Welcome from '../components/Welcome.astro';
-import Layout from "../layouts/Layout.astro";
+import Layout from "@/layouts/Layout.astro";
+
+import About from "@/components/sections/About.astro";
+import Education from "@/components/sections/Education.astro";
+import Expirence from "@/components/sections/Expirence.astro";
+import Hero from "@/components/sections/Hero.astro";
+import Projects from "@/components/sections/Projects.astro";
+import Skills from "@/components/sections/Skills.astro";
 ---
 
 <Layout>
   <main>
-    <h1>Hola mundo</h1>
+    <Hero />
+    <About />
+    <Expirence />
+    <Education />
+    <Projects />
+    <Skills />
   </main>
 </Layout>
+
+<style>
+  main {
+    padding: 4rem;
+    margin: auto;
+    width: 100%;
+  }
+</style>
+
+<style media="print">
+  @page {
+    size: A4;
+  }
+
+  @media print {
+    body {
+      -webkit-print-color-adjust: exact;
+    }
+  }
+</style>
