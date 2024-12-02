@@ -18,7 +18,7 @@ import { work } from "@/cv";
               <header>
                 <div>
                   <h3>{name}</h3>
-                  <p>{position}</p>
+                  <h4>{position}</h4>
                 </div>
                 <time>{years}</time>
               </header>
@@ -40,20 +40,31 @@ import { work } from "@/cv";
   }
 
   article h3 {
-    font-weight: 500;
+    font-weight: 600;
     color: #111;
+    font-size: 1rem;
+    margin-bottom: 8px;
   }
 
   article h4 {
+    font-size: 0.875rem;
     font-weight: 400;
-    color: #222;
+    font-family:
+      ui-monospace,
+      SFMono-Regular,
+      Menlo,
+      Monaco,
+      Consolas,
+      Liberation Mono,
+      Courier New,
+      monospace;
   }
 
   header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
   }
 
   time {
