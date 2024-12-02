@@ -18,6 +18,11 @@ const SOCIAL_ICONS: Record<string, any> = {
   X,
   Youtube,
 };
+
+const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
+const linkedUrl = linkedInfo?.url;
+
+const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 ---
 
 <Section>
@@ -32,7 +37,10 @@ const SOCIAL_ICONS: Record<string, any> = {
         {city}, {region}
       </span>
 
-      <footer>
+      <footer class="print">
+        {printInfo}
+      </footer>
+      <footer class="no-print">
         {
           email && (
             <a
@@ -114,6 +122,8 @@ const SOCIAL_ICONS: Record<string, any> = {
     object-fit: cover;
     width: 128px;
     border-radius: 16px;
+    max-inline-size: unset;
+    max-block-size: unset;
   }
 
   span {
@@ -129,6 +139,9 @@ const SOCIAL_ICONS: Record<string, any> = {
     display: flex;
     gap: 4px;
     margin-top: 8px;
+    color: #555;
+    font-size: 0.65rem;
+    line-height: 1.5rem;
   }
 
   footer a {
@@ -149,5 +162,32 @@ const SOCIAL_ICONS: Record<string, any> = {
   footer a:hover {
     background-color: #eee;
     border-color: #ddd;
+  }
+
+  @media (width <= 700px) {
+    .container {
+      flex-direction: column-reverse;
+    }
+
+    .info {
+      justify-content: center;
+      align-items: center;
+      padding-right: 0;
+      text-align: center;
+    }
+
+    figure {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h2 {
+      text-wrap: balance;
+    }
+
+    figure {
+      margin: 0 auto;
+    }
   }
 </style>
