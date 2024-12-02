@@ -8,6 +8,7 @@ import Hero from "@/components/sections/Hero.astro";
 import Projects from "@/components/sections/Projects.astro";
 import Skills from "@/components/sections/Skills.astro";
 import KeyboardManager from "@/components/KeyboardManager.astro";
+import Header from "@/components/Header.astro";
 
 import json from "@/cv";
 const { name, label } = json.basics;
@@ -15,6 +16,7 @@ const { name, label } = json.basics;
 
 <Layout title={`Portafolio de ${name} - ${label}`}>
   <main>
+    <Header title="Versión en Inglés" route="/en" />
     <Hero json={json} />
     <About title="Sobre mí" summary={json.basics.summary} />
     <Expirence title="Experiencia" work={json.work} lang="es" />
