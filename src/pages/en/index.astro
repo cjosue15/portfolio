@@ -9,18 +9,18 @@ import Projects from "@/components/sections/Projects.astro";
 import Skills from "@/components/sections/Skills.astro";
 import KeyboardManager from "@/components/KeyboardManager.astro";
 
-import json from "@/cv";
+import json from "@/cv-en";
 const { name, label } = json.basics;
 ---
 
-<Layout title={`Portafolio de ${name} - ${label}`}>
+<Layout title={`${name} Portfolio - ${label}`}>
   <main>
     <Hero />
-    <About title="Sobre mí" summary={json.basics.summary} />
-    <Expirence title="Experiencia" work={json.work} lang="es" />
-    <Projects title="Proyectos" projects={json.projects} />
-    <Education title="Educación" education={json.education} />
-    <Skills title="Tecnologías" skills={json.skills} />
+    <About title="About me" summary={json.basics.summary} />
+    <Expirence title="Expirence" work={json.work} lang="en" />
+    <Projects title="Projects" projects={json.projects} />
+    <Education title="Education" education={json.education} />
+    <Skills title="Skills" skills={json.skills} />
   </main>
 
   <KeyboardManager />

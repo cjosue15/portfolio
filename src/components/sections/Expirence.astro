@@ -2,20 +2,33 @@
 import Section from "@/components/Section.astro";
 import { getMonthLabel } from "@/lib/date";
 
-import { work } from "@/cv";
+interface Props {
+  title: string;
+  work: {
+    name: string;
+    startDate: string;
+    endDate: string | null;
+    position: string;
+    summary: string;
+    highlights: string[];
+  }[];
+  lang: "en" | "es";
+}
+
+const { title, work, lang } = Astro.props;
 ---
 
-<Section title="Experiencia">
+<Section title={title}>
   <ul class="expirence">
     {
       work.map(
         ({ name, startDate, endDate, position, summary, highlights }) => {
           const start = new Date(startDate);
           const end = endDate !== null ? new Date(endDate) : new Date();
-          const startInfo = `${getMonthLabel(start.getMonth() + 1)}/${start.getFullYear()}`;
+          const startInfo = `${getMonthLabel(start.getMonth() + 1, lang)}/${start.getFullYear()}`;
           const endInfo =
             endDate !== null
-              ? `${getMonthLabel(end.getMonth() + 1)}/${end.getFullYear()}`
+              ? `${getMonthLabel(end.getMonth() + 1, lang)}/${end.getFullYear()}`
               : "Presente";
 
           const years = `${startInfo} - ${endInfo}`;
