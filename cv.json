@@ -40,7 +40,11 @@
       "summary": "Responsable del desarrollo y mantenimiento de un Design System con Angular y Storybook",
       "highlights": [
         "Creación de libreria de componentes con Angular.",
-        "Uso de Angular Material como base de nuestra libreria."
+        "Uso de Angular Material como base de nuestra libreria.",
+        "Creacion de documentación con Storybook.",
+        "Implementación de pruebas unitarias con Jasmine y Karma.",
+        "Despliegue automatizado con GitHub Actions y npm.",
+        "Uso de Jenkins para integración continua."
       ]
     },
     {
